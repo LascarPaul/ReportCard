@@ -93,7 +93,9 @@ public class ReportCard {
     }
 
     public double getGradeAvg() {
-        return (MathGrade + HistoryGrade + ChemistryGrade + PhysicsGrade) / 4;
+
+        GradeAvg =  (MathGrade + HistoryGrade + ChemistryGrade + PhysicsGrade) / 4;
+        return GradeAvg;
     }
 
     @Override
